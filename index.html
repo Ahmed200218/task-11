@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-24353F">
+    <div class="w-100 vh-100 d-flex justify-content-center align-items-start " id="one">
+        <div class="bg-24353F  w-70  mt-5 d-flex justify-content-center align-items-center flex-column box-shadow">
+            <h1 class="color-17A2B8 mt-5 fs-0 text-center">Smart Login System</h1>
+            <div class="d-flex justify-content-center align-items-center flex-column w-100 px-5">
+                <input type="text" placeholder="Enter your Email" id="emailin"
+                    class="bg-24353F border-ced4da w-100 mx-5 my-2 p-2 border-radius-small color-white input">
+                <input type="password" placeholder="Enter your password" id="passwordin"
+                    class="bg-24353F border-ced4da w-100 mx-5 my-2 p-2 border-radius-small color-white input">
+                    <h6 class="color-dc3545" id="error1"></h6>
+                <button
+                    class="bg-24353F border-ced4da w-100 mx-5 my-3 p-2 border-radius-small button-sumbit" id="loginb">Login</button>
+                <p class="color-white">Don’t have an account? <span class="curser-pointer" id="signup"> Sign Up</span>
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <div class="w-100 vh-100 d-flex justify-content-center align-items-start d-none" id="two">
+        <div class="bg-24353F  w-70  mt-5 d-flex justify-content-center align-items-center flex-column box-shadow">
+            <h1 class="color-17A2B8 mt-5 fs-0 text-center">Smart Login System</h1>
+            <div class="d-flex justify-content-center align-items-center flex-column w-100 px-5">
+                <input type="text" placeholder="Enter your name" id="nameup"
+                    class="bg-24353F border-ced4da w-100 mx-5 my-2 p-2 border-radius-small color-white input">
+                <input type="text" placeholder="Enter your Email"  id="emailup"
+                    class="bg-24353F border-ced4da w-100 mx-5 my-2 p-2 border-radius-small color-white input">
+                <input type="password" placeholder="Enter password"  id="passwordup"
+                    class="bg-24353F border-ced4da w-100 mx-5 my-2 p-2 border-radius-small color-white input">
+                    <h6 class="color-dc3545" id="error2"></h6>
+                <button
+                    class="bg-24353F border-ced4da w-100 mx-5 my-3 p-2 border-radius-small button-sumbit" id="signupb">Sign Up</button>
+                <p class="color-white">You have an account? <span class="cursor-pointer" id="signin">Signin</span>
+                </p>
+            </div>
+        </div>
+    </div>
+<div class="w-100 vh-100 bg-24353F d-none" id="home">
+<div class="bg-24353F d-flex justify-content-around align-items-center pt-3 pb-2 box-shadow  position-fixed w-100">
+    <h5 class="color-white me-5 pe-5 cursor-pointer d-inline-block">SMART LOGIN</h5>
+    <button class="p-2 bg-transparent border-warning" id="logout">Logout</button>
+</div>
+<div class="w-100 h-100 d-flex justify-content-center align-items-center">
+<p class="box-shadow color-17A2B8 p-5 m-5 w-60 text-center fs-1" id="welcome"></p>
+</div>
+</div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
